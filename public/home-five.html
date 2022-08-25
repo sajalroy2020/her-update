@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Five</title>
+    <link rel="stylesheet" href="../src/assets/icon/css/all.min.css">
+    <link rel="stylesheet" href="../dist/style.css">
+    <link rel="stylesheet" href="../src/input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+</head>
+<body class="custom-font">
+    <!-- Navbar Start -->
+   <div class="py-8 sticky top-0 z-50 nav duration-300">
+    <div class="container mx-auto px-4">
+        <div class="row">
+            <div class="lg:w-1/3 md:w-1/2 w-full px-4 flex items-center justify-start">
+                <div>
+                    <img class="lg:hidden flex transform translate-y-6 sm:translate-y-4 md:translate-y-0 cursor-pointer menu" src="../src/assets/image/home-one-Icon/menu.svg" alt="">
+                    <ul class="font-bold flex items-center justify-start space-x-6">
+                        <li class="relative lg:flex hidden items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300 navItem">
+                            <a href="javascript:;">Home</a>
+                            <i class="fa fa-caret-down"></i>
+                            <span class="h-4 w-9 absolute -top-5 right-0 bg-blue-500 text-xs flex items-center justify-center text-white p-2">
+                                <p>New</p>
+                            </span>
+                            <ul class="bg-gray-300 w-40 px-4 py-2 absolute top-10 -left-1 text-black navMenu hidden">
+                                <li class="hover:text-primaryColor"><a href="home-one.html">Home 1</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-two.html">Home 2</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-three.html">Home 3</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-four.html">Home 4</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-five.html">Home 5</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-6.html">Home 6</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-7.html">Home 7</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-8.html">Home 8</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-9.html">Home 9</a></li>
+                            </ul>
+                        </li>
+                        <li class="relative lg:flex hidden items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300 navItem">
+                            <a href="javascript:;">Shop</a>
+                            <i class="fa fa-caret-down"></i>
+                            <span class="h-4 w-9 absolute -top-5 right-0 bg-green-500 text-xs flex items-center justify-center text-white p-2">
+                                <p>Sales</p>
+                            </span>
+                            <ul class="bg-gray-300 w-40 px-4 py-2 absolute top-10 -left-1 text-black navMenu hidden">
+                                <li class="hover:text-primaryColor"><a href="">Shop 1</a></li>
+                                <li class="hover:text-primaryColor"><a href="">Shop 2</a></li>
+                                <li class="hover:text-primaryColor"><a href="">Shop 3</a></li>
+                                <li class="hover:text-primaryColor"><a href="">Shop 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="lg:flex hidden items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300 navItem relative">
+                            <a href="javascript:;">Blogs</a>
+                            <i class="fa fa-caret-down"></i>
+                            <ul class="bg-gray-300 w-40 px-4 py-2 absolute top-10 -left-1 text-black navMenu hidden">
+                                <li class="hover:text-primaryColor"><a href="">Blog 1</a></li>
+                                <li class="hover:text-primaryColor"><a href="">Blog 2</a></li>
+                                <li class="hover:text-primaryColor"><a href="">Blog 3</a></li>
+                                <li class="hover:text-primaryColor"><a href="">Blog 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="lg:flex hidden items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300 navItem relative">
+                            <a href="javascript:;">Pages</a>
+                            <i class="fa fa-caret-down"></i>
+                            <ul class="bg-gray-300 w-40 px-4 py-2 absolute top-10 -left-1 text-black navMenu hidden">
+                                <li class="hover:text-primaryColor"><a href="">pages 1</a></li>
+                                <li class="hover:text-primaryColor"><a href="">pages 2</a></li>
+                                <li class="hover:text-primaryColor"><a href="">pages 3</a></li>
+                                <li class="hover:text-primaryColor"><a href="">pages 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="lg:flex hidden items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 w-full px-4 flex lg:justify-center justify-end items-center">
+                <div>
+                    <img src="../src/assets/image/home-one-images/logo.svg" alt="">
+                </div>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 w-full px-4 lg:flex hidden justify-end items-center">
+                <div>
+                    <ul class="flex items-center space-x-5">
+                        <li class="cursor-pointer"><img src="../src/assets/image/home-one-Icon/search.svg" alt=""></li>
+                        <li class="cursor-pointer"><img src="../src/assets/image/home-one-Icon/user.svg" alt=""></li>
+                        <li class="cursor-pointer relative">
+                            <img src="../src/assets/image/home-one-Icon/shop.svg" alt="">
+                            <span class="w-3.5 h-4 bg-blue-400 rounded-full absolute top-0 -right-2.5 flex items-center justify-center text-white text-xs">
+                                <p>0</p>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <ul class="font-bold space-y-4 fixed top-0 bg-gray-300 h-screen md:w-80 w-60 p-4 -ml-80 sidebar duration-500 z-50 lg:hidden">
+            <li class="pb-4 border-b flex justify-end "><button class="hover:text-green-500 duration-300 close" type="">X   Close</button></li>
+            <li class="relative pt-4 flex justify-between items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300">
+                <a href="javascript:;">Home</a>
+                <i class="fa fa-caret-down"></i>
+                <span class="h-4 w-9 absolute -top-0 letf-0 bg-blue-500 text-xs flex items-center justify-center text-white p-2">
+                    <p>New</p>
+                </span>
+            </li>
+            <li class="relative flex justify-between items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300">
+                <a href="javascript:;">Shop</a>
+                <i class="fa fa-caret-down"></i>
+                <span class="h-4 w-9 absolute -top-3 letf-0 bg-green-500 text-xs flex items-center justify-center text-white p-2">
+                    <p>Sales</p>
+                </span>
+            </li>
+            <li class="flex justify-between items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300">
+                <a href="javascript:;">Blogs</a>
+                <i class="fa fa-caret-down"></i>
+            </li>
+            <li class="flex justify-between items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300">
+                <a href="javascript:;">Pages</a>
+                <i class="fa fa-caret-down"></i>
+            </li>
+            <li class="flex justify-between items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300">
+                <a href="contact.html">Contact</a>
+            </li>
+
+            <ul class="flex items-center space-x-3 pt-7 justify-center">
+                <li class="cursor-pointer"><img src="../src/assets/image/home-one-Icon/search.svg" alt=""></li>
+            <li class="cursor-pointer"><img src="../src/assets/image/home-one-Icon/user.svg" alt=""></li>
+            <li class="cursor-pointer relative ">
+                <img src="../src/assets/image/home-one-Icon/shop.svg" alt="">
+                <span class="w-3.5 h-4 bg-blue-400 rounded-full absolute top-0 -right-2.5 flex items-center justify-center text-white text-xs">
+                    <p>0</p>
+                </span>
+             </li>
+            </ul>
+        </ul>
+    </div>
+</div>
+<!-- Navbar End -->
+    <!-- Title Section Start -->
+    <div class="custom-bg-2 h-[343px] font-sans">
+        <div class="container mx-auto px-4">
+            <div class="row">
+                <div class="w-full px-4">
+                    <div class="flex items-center justify-center">
+                        <p class="text-lg text-white mt-40">Home / Clothing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Title Section End -->
+    <!-- Filter Section Start -->
+    <div class=" py-20">
+        <div class="container mx-auto px-4">
+            <div class="row">
+                <div class="lg:w-1/5 w-full px-4">
+                    <div>
+                        <ul>
+                            <li class="border-b py-3">
+                                <div class="flex items-center justify-between cursor-pointer font-semibold exBtn">
+                                    <p>Categories</p>
+                                    <p>+</p>
+                                </div>
+                                <ul class="hidden exMenu pt-5">
+                                    <li><a href="">Categories 1</a></li>
+                                    <li><a href="">Categories 2</a></li>
+                                    <li><a href="">Categories 3</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li class="border-b py-3 ">
+                                <div class="flex items-center justify-between cursor-pointer font-semibold exBtn">
+                                    <p>Vendors</p>
+                                    <p>+</p>
+                                </div>
+                                <ul class="hidden exMenu pt-5">
+                                    <li><a href="">Vendors 1</a></li>
+                                    <li><a href="">Vendors 2</a></li>
+                                    <li><a href="">Vendors 3</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li class=" border-b py-3 relative">
+                                <div class="flex items-center justify-between cursor-pointer font-semibold exBtn">
+                                    <p>Types</p>
+                                    <p>+</p>
+                                </div>
+                                <ul class="hidden exMenu pt-5">
+                                    <li><a href="">Types 1</a></li>
+                                    <li><a href="">Types 1</a></li>
+                                    <li><a href="">Types 1</a></li>
+                                </ul>
+                            </li>
+                            <li class=" font-semibold border-b py-3">
+                               <div class="flex items-center justify-between cursor-pointer">
+                                <p>Price range</p>
+                                <p>+</p>
+                               </div>
+                               <input class="w-full py-1.5" type="range" name="" id="" width="100">
+                               <p class=" font-sans">$20.00 - $550.00</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="py-5">
+                        <ul class=" space-y-3.5 font-sans">
+                            <li class=" font-semibold">Color</li>
+                            <li class="flex items-center space-x-1.5 cursor-pointer">
+                                <div class="w-3 h-3 bg-gray-400 rounded-full">
+
+                                </div>
+                                <p>Gray</p>
+                            </li>
+                            <li class="flex items-center space-x-1.5 cursor-pointer">
+                                <div class="w-3 h-3 bg-black rounded-full">
+
+                                </div>
+                                <p>Black</p>
+                            </li>
+                            <li class="flex items-center space-x-1.5 cursor-pointer">
+                                <div class="w-3 h-3 bg-red-500 rounded-full">
+
+                                </div>
+                                <p>Red</p>
+                            </li>
+                            <li class="flex items-center space-x-1.5 cursor-pointer">
+                                <div class="w-3 h-3 bg-yellow-500 rounded-full">
+
+                                </div>
+                                <p>Yellow</p>
+                            </li>
+                            <li class="flex items-center space-x-1.5 cursor-pointer">
+                                <div class="w-3 h-3 bg-green-500 rounded-full">
+
+                                </div>
+                                <p>Green</p>
+                            </li>
+                            <li class="flex items-center space-x-1.5 cursor-pointer">
+                                <div class="w-3 h-3 bg-blue-500 rounded-full">
+
+                                </div>
+                                <p>Blue</p>
+                            </li>
+                            <li class="flex items-center space-x-1.5 cursor-pointer">
+                                <div class="w-3 h-3 bg-orange-500 rounded-full">
+
+                                </div>
+                                <p>Orange</p>
+                            </li>
+                            <li class="flex items-center space-x-1.5 cursor-pointer">
+                                <div class="w-3 h-3 bg-pink-400 rounded-full">
+
+                                </div>
+                                <p>Pink</p>
+                            </li>
+                            <li class="flex items-center space-x-1.5 cursor-pointer">
+                                <div class="w-3 h-3 bg-purple-400 rounded-full">
+
+                                </div>
+                                <p>Pruple</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class=" space-y-2 font-sans">
+                            <li class="font-semibold">Size</li>
+                            <li class="flex items-center space-x-1.5">
+                                <input type="radio" name="" id="">
+                                <p>XS</p>
+                            </li>
+                            <li class="flex items-center space-x-1.5">
+                                <input type="radio" name="" id="">
+                                <p>S</p>
+                            </li>
+                            <li class="flex items-center space-x-1.5">
+                                <input type="radio" name="" id="">
+                                <p>M</p>
+                            </li>
+                            <li class="flex items-center space-x-1.5">
+                                <input type="radio" name="" id="">
+                                <p>L</p>
+                            </li>
+                            <li class="flex items-center space-x-1.5">
+                                <input type="radio" name="" id="">
+                                <p>XL</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lg:w-4/5 w-full px-4">
+                    <div class="flex flex-wrap bg-[#F2F1F1] p-1.5 font-sans">
+                        <div class="md:w-1/2 w-full">
+                            <div class="flex items-center space-x-2 py-3">
+                                <button class="flex items-center space-x-1 bg-white px-2 border-b-2 py-1 hover:border-blue-400 group duration-300 sizeBtn">
+                                    <div class="w-2 h-2 bg-gray-500 duration-300 group-hover:bg-blue-400 rounded-full"></div>
+                                    <div class="w-2 h-2 bg-gray-500 duration-300 group-hover:bg-blue-400 rounded-full"></div>
+                                </button>
+                                <button class="flex items-center space-x-1 bg-white px-2 py-1 border-b-2 hover:border-blue-400 group duration-300 sizeBtn">
+                                    <div class="w-2 h-2 bg-gray-500 duration-300 group-hover:bg-blue-400 rounded-full"></div>
+                                    <div class="w-2 h-2 bg-gray-500 duration-300 group-hover:bg-blue-400 rounded-full"></div>
+                                    <div class="w-2 h-2 bg-gray-500 duration-300 group-hover:bg-blue-400 rounded-full"></div>
+                                </button>
+                                <button class="flex items-center space-x-1 bg-white px-2 py-1 border-b-2 hover:border-blue-400 group duration-300 sizeBtn">
+                                    <div class="w-2 h-2 group-hover:bg-blue-400 bg-gray-500 duration-300 rounded-full"></div>
+                                    <div class="w-2 h-2 group-hover:bg-blue-400 bg-gray-500 duration-300 rounded-full"></div>
+                                    <div class="w-2 h-2 group-hover:bg-blue-400 bg-gray-500 duration-300 rounded-full"></div>
+                                    <div class="w-2 h-2 group-hover:bg-blue-400 bg-gray-500 duration-300 rounded-full"></div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="md:w-1/2 w-full flex justify-end items-center">
+                            <div class="">
+                                <label class=" pr-3" for="">Sort by</label>
+                                <select class="w-60 px-2 outline-none py-1.5 bg-white rounded-md" name="" id="">
+                                    <option value="Faetured">Faetured</option>
+                                    <option value="Faetured">Faetured 2</option>
+                                    <option value="Faetured">Faetured 3</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap -mx-2 font-sans">
+                        <div class="lg:w-1/4 md:w-1/2 w-full pt-7 px-2 product1">
+                            <div class=" text-center space-y-1.5">
+                                <img class="w-full" src="../src/assets/image/home-five-image/women1.svg" alt="">
+                                <p class=" text-sm">Derek Cardigan 7001 Shadow</p>
+                                <p class="font-bold">On sale from <span class=" text-blue-400">$20.00</span></p>
+                            </div>
+                        </div>
+                        <div class="lg:w-1/4 md:w-1/2 w-full pt-7 px-2 product2">
+                            <div class=" text-center space-y-1.5">
+                                <img class="w-full" src="../src/assets/image/home-five-image/women2.svg" alt="">
+                                <p class=" text-sm">Derek Cardigan 7001 Shadow</p>
+                                <p class="font-bold">On sale from <span class=" text-blue-400">$20.00</span></p>
+                                <div class="flex items-center justify-center space-x-1">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women1.svg" alt="">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/man1.svg" alt="">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women2.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:w-1/4 md:w-1/2 w-full pt-7 px-2 product3">
+                            <div class=" text-center space-y-1.5">
+                                <img class="w-full" src="../src/assets/image/home-five-image/man1.svg" alt="">
+                                <p class=" text-sm">Derek Cardigan 7001 Shadow</p>
+                                <p class="font-bold">On sale from <span class=" text-blue-400">$20.00</span></p>
+                                <div class="flex items-center justify-center space-x-1">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women1.svg" alt="">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/man1.svg" alt="">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women2.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:w-1/4 md:w-1/2 w-full pt-7 px-2 product4">
+                            <div class=" text-center space-y-1.5">
+                                <img class="w-full" src="../src/assets/image/home-five-image/women3.svg" alt="">
+                                <p class=" text-sm">Derek Cardigan 7001 Shadow</p>
+                                <p class="font-bold">On sale from <span class=" text-blue-400">$20.00</span></p>
+                                <div class="flex items-center justify-center space-x-1">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women1.svg" alt="">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/man1.svg" alt="">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women2.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:w-1/4 md:w-1/2 w-full pt-7 px-2 product5">
+                            <div class=" text-center space-y-1.5">
+                                <img class="w-full" src="../src/assets/image/home-five-image/women4.svg" alt="">
+                                <p class=" text-sm">Derek Cardigan 7001 Shadow</p>
+                                <p class="font-bold">On sale from <span class=" text-blue-400">$20.00</span></p>
+                                <div class="flex items-center justify-center space-x-1">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women1.svg" alt="">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/man1.svg" alt="">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women2.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:w-1/4 md:w-1/2 w-full pt-7 px-2 product6">
+                            <div class=" text-center space-y-1.5">
+                                <img class="w-full" src="../src/assets/image/home-five-image/man2.svg" alt="">
+                                <p class=" text-sm">Derek Cardigan 7001 Shadow</p>
+                                <p class="font-bold">On sale from <span class=" text-blue-400">$20.00</span></p>
+                                <div class="flex items-center justify-center space-x-1">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women1.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:w-1/4 md:w-1/2 w-full pt-7 px-2 product7">
+                            <div class=" text-center space-y-1.5">
+                                <img class="w-full" src="../src/assets/image/home-five-image/women5.svg" alt="">
+                                <p class=" text-sm">Derek Cardigan 7001 Shadow</p>
+                                <p class="font-bold">On sale from <span class=" text-blue-400">$20.00</span></p>
+                                <div class="flex items-center justify-center space-x-1">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women1.svg" alt="">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/man1.svg" alt="">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women2.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:w-1/4 md:w-1/2 w-full pt-7 px-2 product8">
+                            <div class=" text-center space-y-1.5">
+                                <img class="w-full" src="../src/assets/image/home-five-image/women6.svg" alt="">
+                                <p class=" text-sm">Derek Cardigan 7001 Shadow</p>
+                                <p class="font-bold">On sale from <span class=" text-blue-400">$20.00</span></p>
+                                <div class="flex items-center justify-center space-x-1">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women1.svg" alt="">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/man1.svg" alt="">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women2.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:w-1/4 md:w-1/2 w-full pt-7 px-2 product9">
+                            <div class=" text-center space-y-1.5">
+                                <img class="w-full" src="../src/assets/image/home-five-image/sunglass.svg" alt="">
+                                <p class=" text-sm">Derek Cardigan 7001 Shadow</p>
+                                <p class="font-bold">On sale from <span class=" text-blue-400">$20.00</span></p>
+                                <div class="flex items-center justify-center space-x-1">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women1.svg" alt="">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/man1.svg" alt="">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women2.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:w-1/4 md:w-1/2 w-full pt-7 px-2 product10">
+                            <div class=" text-center space-y-1.5">
+                                <img class="w-full" src="../src/assets/image/home-five-image/women7.svg" alt="">
+                                <p class=" text-sm">Derek Cardigan 7001 Shadow</p>
+                                <p class="font-bold">On sale from <span class=" text-blue-400">$20.00</span></p>
+                                <div class="flex items-center justify-center space-x-1">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women1.svg" alt="">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/man1.svg" alt="">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women2.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:w-1/4 md:w-1/2 w-full pt-7 px-2 product11">
+                            <div class=" text-center space-y-1.5">
+                                <img class="w-full" src="../src/assets/image/home-five-image/women8.svg" alt="">
+                                <p class=" text-sm">Derek Cardigan 7001 Shadow</p>
+                                <p class="font-bold">On sale from <span class=" text-blue-400">$20.00</span></p>
+                                <div class="flex items-center justify-center space-x-1">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women1.svg" alt="">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/man1.svg" alt="">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women2.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:w-1/4 md:w-1/2 w-full pt-7 px-2 product12">
+                            <div class=" text-center space-y-1.5">
+                                <img class="w-full" src="../src/assets/image/home-five-image/t-shirt.svg" alt="">
+                                <p class=" text-sm">Derek Cardigan 7001 Shadow</p>
+                                <p class="font-bold">On sale from <span class=" text-blue-400">$20.00</span></p>
+                                <div class="flex items-center justify-center space-x-1">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women1.svg" alt="">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/man1.svg" alt="">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women2.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:w-1/4 md:w-1/2 w-full pt-7 px-2 product13">
+                            <div class=" text-center space-y-1.5">
+                                <img class="w-full" src="../src/assets/image/home-five-image/man3.svg" alt="">
+                                <p class=" text-sm">Derek Cardigan 7001 Shadow</p>
+                                <p class="font-bold">On sale from <span class=" text-blue-400">$20.00</span></p>
+                               
+                            </div>
+                        </div>
+                        <div class="lg:w-1/4 md:w-1/2 w-full pt-7 px-2 product14">
+                            <div class=" text-center space-y-1.5">
+                                <img class="w-full" src="../src/assets/image/home-five-image/man1.svg" alt="">
+                                <p class=" text-sm">Derek Cardigan 7001 Shadow</p>
+                                <p class="font-bold">On sale from <span class=" text-blue-400">$20.00</span></p>
+                                
+                            </div>
+                        </div>
+                        <div class="lg:w-1/4 md:w-1/2 w-full pt-7 px-2 product15">
+                            <div class=" text-center relative space-y-1.5">
+                                <img class="w-full" src="../src/assets/image/home-five-image/luggege.svg" alt="">
+                                <p class=" text-sm">Derek Cardigan 7001 Shadow</p>
+                                <p class="font-bold">On sale from <span class=" text-blue-400">$20.00</span></p>
+                                <div class=" absolute bottom-28 transform translate-x-1/2 right-1/2">
+                                    <div class="flex items-center space-x-2">
+                                        <div class="w-12 h-12 bg-white cursor-pointer rounded-md flex items-center justify-center">
+                                            <p class=" text-xs"><span class="font-semibold">267</span><br> Days</p>
+                                        </div>
+                                        <div class="w-12 h-12 bg-white cursor-pointer rounded-md flex items-center justify-center">
+                                            <p class=" text-xs"><span class="font-semibold">267</span><br> Hour</p>
+                                        </div>
+                                        <div class="w-12 h-12 bg-white cursor-pointer rounded-md flex items-center justify-center">
+                                            <p class=" text-xs"><span class="font-semibold">267</span><br> Mins</p>
+                                        </div>
+                                        <div class="w-12 h-12 bg-white cursor-pointer rounded-md flex items-center justify-center">
+                                            <p class=" text-xs"><span class="font-semibold">267</span><br> Secs</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:w-1/4 md:w-1/2 w-full pt-7 px-2 product16">
+                            <div class=" text-center space-y-1.5">
+                                <img class="w-full" src="../src/assets/image/home-five-image/women9.svg" alt="">
+                                <p class=" text-sm">Derek Cardigan 7001 Shadow</p>
+                                <p class="font-bold">On sale from <span class=" text-blue-400">$20.00</span></p>
+                                <div class="flex items-center justify-center space-x-1">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women1.svg" alt="">
+                                    <img class="w-4 h-4 rounded-full" src="../src/assets/image/home-five-image/women2.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap pt-20">
+                        <div class="flex justify-center w-full">
+                            <ul class=" font-sans flex items-center space-x-1">
+                                <li class="w-6 h-6 hover:bg-[#91E0FA] bg-gray-300 duration-300 text-white flex items-center justify-center"><a class="" href="">1</a></li>
+                                <li class="w-6 h-6 hover:bg-[#91E0FA] bg-gray-300 duration-300 text-white flex items-center justify-center"><a class="" href="">2</a></li>
+                                <li class="w-6 h-6 hover:bg-[#91E0FA] bg-gray-300 duration-300 text-white flex items-center justify-center"><a class="" href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                      </svg>
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Filter Section End -->
+    <!-- Footer Section Start -->
+    <div class="bg-[#F5F5F5] md:py-24 py-16">
+        <div class="container mx-auto px-4">
+            <div class="row">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <div>
+                        <h3 class=" text-xl font-semibold">About Us</h3>
+                        <ul class="pt-5 space-y-1 text-gray-500 font-sans">
+                            <li><a href="javascript:;">123 South Main Street, Los Angeles</a></li>
+                            <li><a href="javascript:;">United States</a></li>
+                            <li><a href="javascript:;"><span class=" text-gray-600 font-medium">Phone:</span> +0180 808 880</a></li>
+                            <li><a href="javascript:;"><span class=" text-gray-600 font-medium">Email:</span> rubiktheme@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <div>
+                        <h3 class=" text-xl font-semibold">Information</h3>
+                        <ul class="pt-5 space-y-1 text-gray-500 font-sans">
+                            <li><a href="javascript:;">Search</a></li>
+                            <li><a href="javascript:;">Terms & Conditions</a></li>
+                            <li><a href="javascript:;">Privacy Policy</a></li>
+                            <li><a href="javascript:;">Support</a></li>
+                            <li><a href="javascript:;">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4 pt-7 lg:pt-0">
+                    <div>
+                        <h3 class=" text-xl font-semibold">About Us</h3>
+                        <ul class="pt-5 space-y-1 text-gray-500 font-sans">
+                            <li><a href="javascript:;">Our Company</a></li>
+                            <li><a href="javascript:;">Our History</a></li>
+                            <li><a href="javascript:;">Contact Us</a></li>
+                            <li><a href="javascript:;">Blogs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4 pt-7 lg:pt-0">
+                    <div>
+                        <h3 class=" text-xl font-semibold">Follow Us</h3>
+                        <ul class="flex space-x-4 pt-8 font-sans">
+                            <li>
+                                <a class="rounded-md duration-300 hover:bg-gray-400 hover:text-white drop-shadow-xl text-black w-9 h-9 flex items-center justify-center bg-gray-100" href="javasript:;">
+                                <i class="fab  fa-facebook-f"></i>
+                            </a>
+                        </li>
+                            <li>
+                                <a class="rounded-md duration-300 drop-shadow-xl hover:bg-gray-400 hover:text-white text-black w-9 h-9 flex items-center justify-center bg-gray-100" href="javasript:;">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                            <li>
+                                <a class="rounded-md duration-300 drop-shadow-xl hover:bg-gray-400 hover:text-white text-black w-9 h-9 flex items-center justify-center bg-gray-100" href="javasript:;">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                            <li>
+                                <a class="rounded-md drop-shadow-xl hover:bg-gray-400 hover:text-white text-black w-9 h-9 flex items-center justify-center bg-gray-100" href="javasript:;">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Section End -->
+    <!-- Copyright Section Start -->
+    <div class="py-5 font-sans">
+        <div class="container mx-auto px-4">
+            <div class="row">
+                <div class="md:w-1/2 w-full px-4 text-center md:text-left">
+                    <div>
+                        <p>© 2022, landingpage-demo. Powered by Shopify</p>
+                    </div>
+                </div>
+                <div class="md:w-1/2 w-full px-4 flex justify-center pt-3 md:pt-0">
+                    <div>
+                        <img src="../src/assets/image/home-one-images/payment.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button class="bg-red-300 px-4 py-2 rounded-full fixed right-6 bottom-10 scrollBtn hidden" type=""><i class="fa fa-angle-up"></i></button>
+    </div>
+    <!-- Copyright Section End -->
+    <script src="../src/assets/js/main.js"></script>
+</body>
+</html>

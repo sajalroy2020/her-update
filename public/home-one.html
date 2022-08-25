@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home One</title>
+    <link rel="stylesheet" href="../src/assets/icon/css/all.min.css">
+    <link rel="stylesheet" href="../dist/style.css">
+    <link rel="stylesheet" href="../src/input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+</head>
+<body class="custom-font">
+    <!-- Navbar Start -->
+   <div class="py-8 sticky top-0 z-50 nav duration-300">
+    <div class="container mx-auto px-4">
+        <div class="row">
+            <div class="lg:w-1/3 md:w-1/2 w-full px-4 flex items-center justify-start">
+                <div>
+                    <img class="lg:hidden flex transform translate-y-6 sm:translate-y-4 md:translate-y-0 cursor-pointer menu" src="../src/assets/image/home-one-Icon/menu.svg" alt="">
+                    <ul class="font-bold flex items-center justify-start space-x-6">
+                        <li class="relative lg:flex hidden items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300 navItem">
+                            <a href="javascript:;">Home</a>
+                            <i class="fa fa-caret-down"></i>
+                            <span class="h-4 w-9 absolute -top-5 right-0 bg-blue-500 text-xs flex items-center justify-center text-white p-2">
+                                <p>New</p>
+                            </span>
+                            <ul class="bg-gray-300 w-40 px-4 py-2 absolute top-10 -left-1 text-black navMenu hidden">
+                                <li class="hover:text-primaryColor"><a href="home-one.html">Home 1</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-two.html">Home 2</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-three.html">Home 3</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-four.html">Home 4</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-five.html">Home 5</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-6.html">Home 6</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-7.html">Home 7</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-8.html">Home 8</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-9.html">Home 9</a></li>
+                            </ul>
+                        </li>
+                        <li class="relative lg:flex hidden items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300 navItem">
+                            <a href="javascript:;">Shop</a>
+                            <i class="fa fa-caret-down"></i>
+                            <span class="h-4 w-9 absolute -top-5 right-0 bg-green-500 text-xs flex items-center justify-center text-white p-2">
+                                <p>Sales</p>
+                            </span>
+                            <ul class="bg-gray-300 w-40 px-4 py-2 absolute top-10 -left-1 text-black navMenu hidden">
+                                <li class="hover:text-primaryColor"><a href="">Shop 1</a></li>
+                                <li class="hover:text-primaryColor"><a href="">Shop 2</a></li>
+                                <li class="hover:text-primaryColor"><a href="">Shop 3</a></li>
+                                <li class="hover:text-primaryColor"><a href="">Shop 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="lg:flex hidden items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300 navItem relative">
+                            <a href="javascript:;">Blogs</a>
+                            <i class="fa fa-caret-down"></i>
+                            <ul class="bg-gray-300 w-40 px-4 py-2 absolute top-10 -left-1 text-black navMenu hidden">
+                                <li class="hover:text-primaryColor"><a href="">Blog 1</a></li>
+                                <li class="hover:text-primaryColor"><a href="">Blog 2</a></li>
+                                <li class="hover:text-primaryColor"><a href="">Blog 3</a></li>
+                                <li class="hover:text-primaryColor"><a href="">Blog 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="lg:flex hidden items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300 navItem relative">
+                            <a href="javascript:;">Pages</a>
+                            <i class="fa fa-caret-down"></i>
+                            <ul class="bg-gray-300 w-40 px-4 py-2 absolute top-10 -left-1 text-black navMenu hidden">
+                                <li class="hover:text-primaryColor"><a href="">pages 1</a></li>
+                                <li class="hover:text-primaryColor"><a href="">pages 2</a></li>
+                                <li class="hover:text-primaryColor"><a href="">pages 3</a></li>
+                                <li class="hover:text-primaryColor"><a href="">pages 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="lg:flex hidden items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 w-full px-4 flex lg:justify-center justify-end items-center">
+                <div>
+                    <img src="../src/assets/image/home-one-images/logo.svg" alt="">
+                </div>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 w-full px-4 lg:flex hidden justify-end items-center">
+                <div>
+                    <ul class="flex items-center space-x-5">
+                        <li class="cursor-pointer"><img src="../src/assets/image/home-one-Icon/search.svg" alt=""></li>
+                        <li class="cursor-pointer"><img src="../src/assets/image/home-one-Icon/user.svg" alt=""></li>
+                        <li class="cursor-pointer relative">
+                            <img src="../src/assets/image/home-one-Icon/shop.svg" alt="">
+                            <span class="w-3.5 h-4 bg-blue-400 rounded-full absolute top-0 -right-2.5 flex items-center justify-center text-white text-xs">
+                                <p>0</p>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <ul class="font-bold space-y-4 fixed top-0 bg-gray-300 h-screen md:w-80 w-60 p-4 -ml-80 sidebar duration-500 z-50 lg:hidden">
+            <li class="pb-4 border-b flex justify-end "><button class="hover:text-green-500 duration-300 close" type="">X   Close</button></li>
+            <li class="relative pt-4 flex justify-between items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300">
+                <a href="javascript:;">Home</a>
+                <i class="fa fa-caret-down"></i>
+                <span class="h-4 w-9 absolute -top-0 letf-0 bg-blue-500 text-xs flex items-center justify-center text-white p-2">
+                    <p>New</p>
+                </span>
+            </li>
+            <li class="relative flex justify-between items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300">
+                <a href="javascript:;">Shop</a>
+                <i class="fa fa-caret-down"></i>
+                <span class="h-4 w-9 absolute -top-3 letf-0 bg-green-500 text-xs flex items-center justify-center text-white p-2">
+                    <p>Sales</p>
+                </span>
+            </li>
+            <li class="flex justify-between items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300">
+                <a href="javascript:;">Blogs</a>
+                <i class="fa fa-caret-down"></i>
+            </li>
+            <li class="flex justify-between items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300">
+                <a href="javascript:;">Pages</a>
+                <i class="fa fa-caret-down"></i>
+            </li>
+            <li class="flex justify-between items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300">
+                <a href="contact.html">Contact</a>
+            </li>
+
+            <ul class="flex items-center space-x-3 pt-7 justify-center">
+                <li class="cursor-pointer"><img src="../src/assets/image/home-one-Icon/search.svg" alt=""></li>
+            <li class="cursor-pointer"><img src="../src/assets/image/home-one-Icon/user.svg" alt=""></li>
+            <li class="cursor-pointer relative ">
+                <img src="../src/assets/image/home-one-Icon/shop.svg" alt="">
+                <span class="w-3.5 h-4 bg-blue-400 rounded-full absolute top-0 -right-2.5 flex items-center justify-center text-white text-xs">
+                    <p>0</p>
+                </span>
+             </li>
+            </ul>
+        </ul>
+    </div>
+</div>
+    <div class="bg-thirdColor">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-center">
+                <div class=" overflow-hidden">
+                    <div class="flex  relative parent left-0 duration-500">
+                        <div class="min-w-full img">
+                            <div class=" py-2 z-0 font-sans">
+                                <div class="container mx-auto px-4">
+                                    <div class="row">
+                                        <div class="md:w-1/2 w-full px-4 flex items-center justify-center md:justify-start">
+                                            <div class="md:text-left text-center space-y-4 font-bold">
+                                                <p class=" text-2xl">#SUMMER2021</p>
+                                                <h1 class=" text-5xl">Summer Collections</h1>
+                                                <p class="text-sm">50% sall off short clothes</p>
+                                                <div>
+                                                    <button class="bg-secondaryColor text-white px-8 py-2">SHOP NOW</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="md:w-1/2 w-full px-4 md:pt-0 pt-7">
+                                            <div>
+                                                 <img class="h-full" src="../src/assets/image/home-one-images/banner.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="min-w-full img">
+                            <div class="bg-thirdColor py-2 z-0 font-sans">
+                                <div class="container mx-auto px-4">
+                                    <div class="row">
+                                        <div class="md:w-1/2 w-full px-4 flex items-center justify-center md:justify-start">
+                                            <div class="md:text-left text-center space-y-4 font-bold">
+                                                <p class=" text-2xl">#SUMMER2021</p>
+                                                <h1 class=" text-5xl">Summer Collections</h1>
+                                                <p class="text-sm">50% sall off short clothes</p>
+                                                <div>
+                                                    <button class="bg-secondaryColor text-white px-8 py-2">SHOP NOW</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="md:w-1/2 w-full px-4 md:pt-0 pt-7">
+                                            <div>
+                                                 <img class="h-full" src="../src/assets/image/home-one-images/banner.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="min-w-full img">
+                            <div class="bg-thirdColor py-2 z-0 font-sans">
+                                <div class="container mx-auto px-4">
+                                    <div class="row">
+                                        <div class="md:w-1/2 w-full px-4 flex items-center justify-center md:justify-start">
+                                            <div class="md:text-left text-center space-y-4 font-bold">
+                                                <p class=" text-2xl">#SUMMER2021</p>
+                                                <h1 class=" text-5xl">Summer Collections</h1>
+                                                <p class="text-sm">50% sall off short clothes</p>
+                                                <div>
+                                                    <button class="bg-secondaryColor text-white px-8 py-2">SHOP NOW</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="md:w-1/2 w-full px-4 md:pt-0 pt-7">
+                                            <div>
+                                                <img class="h-full" src="../src/assets/image/home-one-images/banner.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full md:pb-14 py-7 flex justify-center lg:justify-start">
+                        <div class="flex items-center justify-center md:justify-start space-x-2">
+                            <div class="w-4 h-4 bg-red-500 rounded-full cursor-pointer nmbr">
+                                
+                            </div>
+                            <div class="w-4 h-4 bg-gray-500 rounded-full cursor-pointer nmbr">
+                                
+                            </div>
+                            <div class="w-4 h-4 bg-gray-500 rounded-full cursor-pointer nmbr">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner Section End -->
+    <!-- Cloths section start -->
+    <div class="pt-11 font-sans">
+        <div class="container mx-auto px-4">
+            <div class="row">
+                <div class="lg:w-1/3 w-full px-4 pt-7 lg:pt-0">
+                    <div class="custom-bg-1 h-[250px] flex items-center p-24">
+                        <div class="">
+                            <p class=" text-2xl font-semibold pb-2">Clothes</p>
+                            <span><a class="bg-black sm:text-base text-xs text-white px-4 py-1 rounded-full uppercase" href="">Shop Now</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 w-full px-4 pt-7 lg:pt-0">
+                    <div class="custom-bg-1 h-[250px] flex items-center p-24">
+                        <div class="">
+                            <p class=" text-2xl font-semibold pb-2">Clothes</p>
+                            <span><a class="bg-black sm:text-base text-xs text-white px-4 py-1 rounded-full uppercase" href="">Shop Now</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 w-full px-4 pt-7 lg:pt-0">
+                    <div class="custom-bg-1 h-[250px] flex items-center p-24">
+                        <div class="">
+                            <p class=" text-2xl font-semibold pb-2">Clothes</p>
+                            <span><a class="bg-black sm:text-base text-xs text-white px-4 py-1 rounded-full uppercase" href="">Shop Now</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cloths section End -->
+    <!-- Featured Products Start -->
+    <div class="pt-10 font-sans">
+        <div class="container mx-auto px-4">
+            <div class="row">
+                <div class="md:w-1/2 w-full px-4">
+                    <div>
+                        <p class=" text-4xl font-bold text-center md:text-left">Featured Products</p>
+                    </div>
+                </div>
+                <div class="md:w-1/2 w-full px-4 flex flex-wrap items-center md:justify-end justify-center md:pt-0 pt-5">
+                    <div>
+                        <ul class="flex items-cente space-x-7">
+                            <li class=" text-lg font-semibold hover:text-blue-400 cursor-pointer duration-300">Best Sellers</li>
+                            <li class=" text-lg font-semibold hover:text-blue-400 cursor-pointer duration-300">Best Sellers</li>
+                            <li class=" text-lg font-semibold hover:text-blue-400 cursor-pointer duration-300">Best Sellers</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row z-0">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4 pt-11">
+                    <div class=" text-center relative group">
+                        <a href="">
+                            <img class="w-full transform hover:scale-105 duration-300" src="../src/assets/image/home-one-images/women1.svg" alt="">
+                            <p class="pt-4">Slip senakers</p>
+                            <p class=" text-blue-400 font-bold">$ 199.00</p>
+                        </a>
+                        <div class=" absolute bottom-20 transform translate-x-1/2 right-1/2 group-hover:opacity-100 opacity-0 duration-300">
+                            <div class="flex items-center space-x-2">
+                                <div class="w-10 h-10 bg-white  cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                      </svg>
+                                </div>
+                                <div class="w-10 h-10 bg-white cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
+                                      </svg>
+                                </div>
+                                <div class="w-10 h-10 bg-white cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                      </svg>
+                                </div>
+                                <div class="w-10 h-10 bg-white cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                      </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4 pt-11">
+                    <div class=" text-center relative group">
+                        <a href="">
+                            <img class="w-full transform hover:scale-105 duration-300" src="../src/assets/image/home-one-images/women2.svg" alt="">
+                            <p class="pt-4">Slip senakers</p>
+                            <p class=" text-blue-400 font-bold">$ 199.00</p>
+                        </a>
+                        <div class=" absolute bottom-20 transform translate-x-1/2 right-1/2 group-hover:opacity-100 opacity-0 duration-300">
+                            <div class="flex items-center space-x-2">
+                                <div class="w-12 h-12 bg-white cursor-pointer rounded-md flex items-center justify-center">
+                                    <p class=" text-xs"><span class="font-semibold">267</span><br> Days</p>
+                                </div>
+                                <div class="w-12 h-12 bg-white cursor-pointer rounded-md flex items-center justify-center">
+                                    <p class=" text-xs"><span class="font-semibold">267</span><br> Hour</p>
+                                </div>
+                                <div class="w-12 h-12 bg-white cursor-pointer rounded-md flex items-center justify-center">
+                                    <p class=" text-xs"><span class="font-semibold">267</span><br> Mins</p>
+                                </div>
+                                <div class="w-12 h-12 bg-white cursor-pointer rounded-md flex items-center justify-center">
+                                    <p class=" text-xs"><span class="font-semibold">267</span><br> Secs</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4 pt-11">
+                    <div class=" text-center relative group">
+                        <a href="">
+                            <img class="w-full transform hover:scale-105 duration-300" src="../src/assets/image/home-one-images/women1.svg" alt="">
+                            <p class="pt-4">Slip senakers</p>
+                            <p class=" text-blue-400 font-bold">$ 199.00</p>
+                        </a>
+                        <div class=" absolute bottom-20 transform translate-x-1/2 right-1/2 group-hover:opacity-100 opacity-0 duration-300">
+                            <div class="flex items-center space-x-2">
+                                <div class="w-10 h-10 bg-white  cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                      </svg>
+                                </div>
+                                <div class="w-10 h-10 bg-white cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
+                                      </svg>
+                                </div>
+                                <div class="w-10 h-10 bg-white cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                      </svg>
+                                </div>
+                                <div class="w-10 h-10 bg-white cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                      </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4 pt-11">
+                    <div class=" text-center relative group">
+                       <a href="">
+                            <img class="w-full transform hover:scale-105 duration-300" src="../src/assets/image/home-one-images/women3.svg" alt="">
+                            <p class="pt-4">Slip senakers</p>
+                            <p class=" text-blue-400 font-bold">$ 199.00</p>
+                       </a>
+                       <div class=" absolute bottom-20 transform translate-x-1/2 right-1/2 group-hover:opacity-100 opacity-0 duration-300">
+                        <div class="flex items-center space-x-2">
+                            <div class="w-10 h-10 bg-white  cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                  </svg>
+                            </div>
+                            <div class="w-10 h-10 bg-white cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white ">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
+                                  </svg>
+                            </div>
+                            <div class="w-10 h-10 bg-white cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                  </svg>
+                            </div>
+                            <div class="w-10 h-10 bg-white cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                  </svg>
+                            </div>
+                        </div>
+                    </div>
+                        <div class=" absolute top-10 transform translate-x-1/4 left-3/4">
+                            <div class="w-10 h-10 bg-white flex items-center justify-center rounded-full cursor-pointer">
+                                <img src="../src/assets/image/home-one-Icon/video.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4 pt-11">
+                    <div class=" text-center relative group">
+                        <a href="">
+                            <img class="w-full transform hover:scale-105 duration-300" src="../src/assets/image/home-one-images/women3.svg" alt="">
+                            <p class="pt-4">Slip senakers</p>
+                            <p class=" text-blue-400 font-bold">$ 199.00</p>
+                        </a>
+                        <div class=" absolute bottom-24 transform translate-x-1/2 right-1/2 group-hover:opacity-100 opacity-0 duration-300">
+                            <div class="flex items-center space-x-2">
+                                <div class="w-10 h-10 bg-white  cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                      </svg>
+                                </div>
+                                <div class="w-10 h-10 bg-white cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
+                                      </svg>
+                                </div>
+                                <div class="w-10 h-10 bg-white cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                      </svg>
+                                </div>
+                                <div class="w-10 h-10 bg-white cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                      </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-center space-x-1">
+                            <div class="w-5 h-5 rounded-full bg-sixthColor">
+
+                            </div>
+                            <div class="w-5 h-5 rounded-full bg-fifthColor">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4 pt-11">
+                    <div class=" text-center relative group">
+                        <a href="">
+                            <img class="w-full transform hover:scale-105 duration-300" src="../src/assets/image/home-one-images/women1.svg" alt="">
+                            <p class="pt-4">Slip senakers</p>
+                        </a>
+                        <div class=" absolute bottom-20 transform translate-x-1/2 right-1/2 group-hover:opacity-100 opacity-0 duration-300">
+                            <div class="flex items-center space-x-2">
+                                <div class="w-10 h-10 bg-white  cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                      </svg>
+                                </div>
+                                <div class="w-10 h-10 bg-white cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
+                                      </svg>
+                                </div>
+                                <div class="w-10 h-10 bg-white cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                      </svg>
+                                </div>
+                                <div class="w-10 h-10 bg-white cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                      </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-1 justify-center">
+                            <strike class=" text-blue-400 font-bold">$ 199.00</strike>
+                            <p class="font-bold">$ 199.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4 pt-11">
+                    <div class=" text-center relative group">
+                        <a href="">
+                            <img class="w-full transform hover:scale-105 duration-300" src="../src/assets/image/home-one-images/women1.svg" alt="">
+                            <p class="pt-4">Slip senakers</p>
+                            <p class=" text-blue-400 font-bold">$ 199.00</p>
+                        </a>
+                        <div class=" absolute bottom-20 transform translate-x-1/2 right-1/2 group-hover:opacity-100 opacity-0 duration-300">
+                            <div class="flex items-center space-x-2">
+                                <div class="w-10 h-10 bg-white  cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                      </svg>
+                                </div>
+                                <div class="w-10 h-10 bg-white cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
+                                      </svg>
+                                </div>
+                                <div class="w-10 h-10 bg-white cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                      </svg>
+                                </div>
+                                <div class="w-10 h-10 bg-white cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                      </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4 pt-11">
+                    <div class=" text-center relative group">
+                        <a href="">
+                            <img class="w-full transform hover:scale-105 duration-300" src="../src/assets/image/home-one-images/women3.svg" alt="">
+                        <p class="pt-4">Slip senakers</p>
+                        <p class=" text-blue-400 font-bold">$ 199.00</p>
+                        </a>
+                        <div class=" absolute bottom-20 transform translate-x-1/2 right-1/2 group-hover:opacity-100 opacity-0 duration-300">
+                            <div class="flex items-center space-x-2">
+                                <div class="w-10 h-10 bg-white  cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                      </svg>
+                                </div>
+                                <div class="w-10 h-10 bg-white cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4" />
+                                      </svg>
+                                </div>
+                                <div class="w-10 h-10 bg-white cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                      </svg>
+                                </div>
+                                <div class="w-10 h-10 bg-white cursor-pointer rounded-full flex items-center justify-center hover:bg-blue-400 hover:text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                      </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" absolute top-10 transform translate-x-1/4 left-3/4">
+                            <div class="w-10 h-10 bg-white flex items-center justify-center rounded-full cursor-pointer">
+                                <img src="../src/assets/image/home-one-Icon/video.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full m pt-7">
+                    <div class="flex items-center justify-center space-x-2">
+                        <div class="w-4 h-4 bg-seventhColor border rounded-full cursor-pointer">
+                            
+                        </div>
+                        <div class="w-4 h-4 bg-black rounded-full cursor-pointer">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center w-full pt-16 pb-28">
+                    <div>
+                        <a class="uppercase px-8 py-2.5 border border-black" href="">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Featured Products End -->
+    <!-- Product Section Start -->
+    <div class="py-10 font-sans">
+        <div class="mx-auto container px-4">
+            <div class="flex flex-wrap justify-center lg:justify-start relative">
+                <div class="lg:w-1/6 md:1/3 w-full pt-7 lg:pt-0">
+                    <div>
+                        <img class="mx-auto w-full md:w-auto" src="../src/assets/image/home-one-images/p1.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 md:1/3 w-full pt-7 lg:pt-0">
+                    <div>
+                        <img class="mx-auto w-full md:w-auto" src="../src/assets/image/home-one-images/p2.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 md:1/3 w-full pt-7 lg:pt-0">
+                    <div>
+                        <img class="mx-auto w-full md:w-auto" src="../src/assets/image/home-one-images/p3.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 md:1/3 w-full pt-7 lg:pt-0">
+                    <div>
+                        <img class="mx-auto w-full md:w-auto" src="../src/assets/image/home-one-images/p4.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 md:1/3 w-full pt-7 lg:pt-0">
+                    <div>
+                        <img class="mx-auto w-full md:w-auto" src="../src/assets/image/home-one-images/p5.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 md:1/3 w-full pt-7 lg:pt-0">
+                    <div>
+                        <img class="mx-auto w-full md:w-auto" src="../src/assets/image/home-one-images/p6.svg" alt="">
+                    </div>
+                </div>
+                <div class="w-64 h-20 bg-red-50 flex items-center justify-center absolute bottom-1/2 right-1/2 transform translate-x-1/2 translate-y-1/2">
+                    <p>@herfashionshop</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Product Section End -->
+    <!-- Discount Section Start -->
+    <div class="bg-ninethColor py-20 font-sans">
+        <div class="container mx-auto px-4">
+            <div class="row">
+                <div class="w-full px-4">
+                    <div class=" text-center md:space-y-24 space-y-16">
+                        <div class=" space-y-5">
+                            <p class=" md:text-5xl text-4xl">Up to 35% off on all items.</p>
+                            <p>Last chance to take advantage of our discounts!</p>
+                        </div>
+                        <div class="space-y-5 md:space-y-0">
+                            <input class="outline-none px-8 rounded-l-full py-2 bg-white md:w-96 w-full" type="email" placeholder="Your Email">
+                            <button class=" bg-black px-8 py-2 md:rounded-r-full rounded-full text-white w-full md:w-auto">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Discount Section End -->
+    <!-- Security Section Start -->
+    <div class="md:py-24 py-16 font-sans">
+        <div class="container mx-auto px-4">
+            <div class="row">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4 pt-7">
+                    <div class=" text-center space-y-1">
+                        <img class=" mx-auto" src="../src/assets/image/home-one-Icon/car.svg" alt="">
+                        <p class="font-semibold">Worldwide Shipping</p>
+                        <p class=" text-sm text-eighthColor">Get free shipping over $75</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4 pt-7">
+                    <div class=" text-center space-y-1">
+                        <img class=" mx-auto" src="../src/assets/image/home-one-Icon/file.svg" alt="">
+                        <p class="font-semibold">Free Returns</p>
+                        <p class=" text-sm text-eighthColor">30 Days Free Return Policy</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4 pt-7">
+                    <div class=" text-center space-y-1">
+                        <img class=" mx-auto" src="../src/assets/image/home-one-Icon/shild.svg" alt="">
+                        <p class="font-semibold">Secured Payments</p>
+                        <p class=" text-sm text-eighthColor">Accept Major Credit Cards</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4 pt-7">
+                    <div class=" text-center space-y-1">
+                        <img class=" mx-auto" src="../src/assets/image/home-one-Icon/mic.svg" alt="">
+                        <p class="font-semibold">Secured Payments</p>
+                        <p class=" text-sm text-eighthColor">Topt Notch Customer Services</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Security Section End -->
+    <!-- Footer Section Start -->
+    <div class="bg-white md:py-24 py-16 font-sans">
+        <div class="container mx-auto px-4">
+            <div class="row">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <div>
+                        <h3 class=" text-xl font-semibold custom-font">About Us</h3>
+                        <ul class="pt-5 space-y-1 text-gray-500">
+                            <li><a href="javascript:;">123 South Main Street, Los Angeles</a></li>
+                            <li><a href="javascript:;">United States</a></li>
+                            <li><a href="javascript:;"><span class=" text-gray-600 font-medium">Phone:</span> +0180 808 880</a></li>
+                            <li><a href="javascript:;"><span class=" text-gray-600 font-medium">Email:</span> rubiktheme@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <div>
+                        <h3 class=" text-xl font-semibold custom-font">Information</h3>
+                        <ul class="pt-5 space-y-1 text-gray-500">
+                            <li><a href="javascript:;">Search</a></li>
+                            <li><a href="javascript:;">Terms & Conditions</a></li>
+                            <li><a href="javascript:;">Privacy Policy</a></li>
+                            <li><a href="javascript:;">Support</a></li>
+                            <li><a href="javascript:;">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4 pt-7 lg:pt-0">
+                    <div>
+                        <h3 class=" text-xl font-semibold custom-font">About Us</h3>
+                        <ul class="pt-5 space-y-1 text-gray-500">
+                            <li><a href="javascript:;">Our Company</a></li>
+                            <li><a href="javascript:;">Our History</a></li>
+                            <li><a href="javascript:;">Contact Us</a></li>
+                            <li><a href="javascript:;">Blogs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4 pt-7 lg:pt-0">
+                    <div>
+                        <h3 class=" text-xl font-semibold custom-font">Follow Us</h3>
+                        <ul class="flex space-x-4 pt-8">
+                            <li>
+                                <a class="rounded-md duration-300 hover:bg-gray-400 hover:text-white drop-shadow-xl text-black w-9 h-9 flex items-center justify-center bg-gray-100" href="javasript:;">
+                                <i class="fab  fa-facebook-f"></i>
+                            </a>
+                        </li>
+                            <li>
+                                <a class="rounded-md duration-300 drop-shadow-xl hover:bg-gray-400 hover:text-white text-black w-9 h-9 flex items-center justify-center bg-gray-100" href="javasript:;">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                            <li>
+                                <a class="rounded-md duration-300 drop-shadow-xl hover:bg-gray-400 hover:text-white text-black w-9 h-9 flex items-center justify-center bg-gray-100" href="javasript:;">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                            <li>
+                                <a class="rounded-md drop-shadow-xl hover:bg-gray-400 hover:text-white text-black w-9 h-9 flex items-center justify-center bg-gray-100" href="javasript:;">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Section End -->
+    <!-- Copyright Section Start -->
+    <div class="py-5">
+        <div class="container mx-auto px-4">
+            <div class="row">
+                <div class="md:w-1/2 w-full px-4 text-center md:text-left">
+                    <div>
+                        <p>© 2022, landingpage-demo. Powered by Shopify</p>
+                    </div>
+                </div>
+                <div class="md:w-1/2 w-full px-4 flex justify-center pt-3 md:pt-0">
+                    <div>
+                        <img src="../src/assets/image/home-one-images/payment.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button class="bg-red-300 px-4 py-2 rounded-full fixed right-6 bottom-10 scrollBtn hidden" type=""><i class="fa fa-angle-up"></i></button>
+    </div>
+    <!-- Copyright Section End -->
+
+    <button class="prev absolute top-96 left-10 bg-gray-300 text-white hover:bg-red-500 rounded-full h-8 w-8 flex items-center justify-center" type="">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+          </svg>
+    </button>
+    <button class="next absolute top-96 bg-gray-300 text-white hover:bg-red-500 rounded-full h-8 w-8 flex items-center justify-center right-10" type="">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+    </button>
+    <script src="../src/assets/js/main.js"></script>
+</body>
+</html>

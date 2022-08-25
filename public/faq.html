@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/assets/icon/css/all.min.css">
+    <link rel="stylesheet" href="../dist/style.css">
+    <link rel="stylesheet" href="../src/input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+</head>
+<body class="custom-font">
+   <!-- Navbar Start -->
+   <div class="py-8 sticky top-0 z-50 nav duration-300">
+    <div class="container mx-auto px-4">
+        <div class="row">
+            <div class="lg:w-1/3 md:w-1/2 w-full px-4 flex items-center justify-start">
+                <div>
+                    <img class="lg:hidden flex transform translate-y-6 sm:translate-y-4 md:translate-y-0 cursor-pointer menu" src="../src/assets/image/home-one-Icon/menu.svg" alt="">
+                    <ul class="font-bold flex items-center justify-start space-x-6">
+                        <li class="relative lg:flex hidden items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300 navItem">
+                            <a href="javascript:;">Home</a>
+                            <i class="fa fa-caret-down"></i>
+                            <span class="h-4 w-9 absolute -top-5 right-0 bg-blue-500 text-xs flex items-center justify-center text-white p-2">
+                                <p>New</p>
+                            </span>
+                            <ul class="bg-gray-300 w-40 px-4 py-2 absolute top-10 -left-1 text-black navMenu hidden">
+                                <li class="hover:text-primaryColor"><a href="home-one.html">Home 1</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-two.html">Home 2</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-three.html">Home 3</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-four.html">Home 4</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-five.html">Home 5</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-6.html">Home 6</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-7.html">Home 7</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-8.html">Home 8</a></li>
+                                <li class="hover:text-primaryColor"><a href="home-9.html">Home 9</a></li>
+                            </ul>
+                        </li>
+                        <li class="relative lg:flex hidden items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300 navItem">
+                            <a href="javascript:;">Shop</a>
+                            <i class="fa fa-caret-down"></i>
+                            <span class="h-4 w-9 absolute -top-5 right-0 bg-green-500 text-xs flex items-center justify-center text-white p-2">
+                                <p>Sales</p>
+                            </span>
+                            <ul class="bg-gray-300 w-40 px-4 py-2 absolute top-10 -left-1 text-black navMenu hidden">
+                                <li class="hover:text-primaryColor"><a href="">Shop 1</a></li>
+                                <li class="hover:text-primaryColor"><a href="">Shop 2</a></li>
+                                <li class="hover:text-primaryColor"><a href="">Shop 3</a></li>
+                                <li class="hover:text-primaryColor"><a href="">Shop 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="lg:flex hidden items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300 navItem relative">
+                            <a href="javascript:;">Blogs</a>
+                            <i class="fa fa-caret-down"></i>
+                            <ul class="bg-gray-300 w-40 px-4 py-2 absolute top-10 -left-1 text-black navMenu hidden">
+                                <li class="hover:text-primaryColor"><a href="">Blog 1</a></li>
+                                <li class="hover:text-primaryColor"><a href="">Blog 2</a></li>
+                                <li class="hover:text-primaryColor"><a href="">Blog 3</a></li>
+                                <li class="hover:text-primaryColor"><a href="">Blog 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="lg:flex hidden items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300 navItem relative">
+                            <a href="javascript:;">Pages</a>
+                            <i class="fa fa-caret-down"></i>
+                            <ul class="bg-gray-300 w-40 px-4 py-2 absolute top-10 -left-1 text-black navMenu hidden">
+                                <li class="hover:text-primaryColor"><a href="">pages 1</a></li>
+                                <li class="hover:text-primaryColor"><a href="">pages 2</a></li>
+                                <li class="hover:text-primaryColor"><a href="">pages 3</a></li>
+                                <li class="hover:text-primaryColor"><a href="">pages 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="lg:flex hidden items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 w-full px-4 flex lg:justify-center justify-end items-center">
+                <div>
+                    <img src="../src/assets/image/home-one-images/logo.svg" alt="">
+                </div>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 w-full px-4 lg:flex hidden justify-end items-center">
+                <div>
+                    <ul class="flex items-center space-x-5">
+                        <li class="cursor-pointer"><img src="../src/assets/image/home-one-Icon/search.svg" alt=""></li>
+                        <li class="cursor-pointer"><img src="../src/assets/image/home-one-Icon/user.svg" alt=""></li>
+                        <li class="cursor-pointer relative">
+                            <img src="../src/assets/image/home-one-Icon/shop.svg" alt="">
+                            <span class="w-3.5 h-4 bg-blue-400 rounded-full absolute top-0 -right-2.5 flex items-center justify-center text-white text-xs">
+                                <p>0</p>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <ul class="font-bold space-y-4 fixed top-0 bg-gray-300 h-screen md:w-80 w-60 p-4 -ml-80 sidebar duration-500 z-50 lg:hidden">
+            <li class="pb-4 border-b flex justify-end "><button class="hover:text-green-500 duration-300 close" type="">X   Close</button></li>
+            <li class="relative pt-4 flex justify-between items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300">
+                <a href="javascript:;">Home</a>
+                <i class="fa fa-caret-down"></i>
+                <span class="h-4 w-9 absolute -top-0 letf-0 bg-blue-500 text-xs flex items-center justify-center text-white p-2">
+                    <p>New</p>
+                </span>
+            </li>
+            <li class="relative flex justify-between items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300">
+                <a href="javascript:;">Shop</a>
+                <i class="fa fa-caret-down"></i>
+                <span class="h-4 w-9 absolute -top-3 letf-0 bg-green-500 text-xs flex items-center justify-center text-white p-2">
+                    <p>Sales</p>
+                </span>
+            </li>
+            <li class="flex justify-between items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300">
+                <a href="javascript:;">Blogs</a>
+                <i class="fa fa-caret-down"></i>
+            </li>
+            <li class="flex justify-between items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300">
+                <a href="javascript:;">Pages</a>
+                <i class="fa fa-caret-down"></i>
+            </li>
+            <li class="flex justify-between items-center cursor-pointer space-x-1 hover:text-primaryColor duration-300">
+                <a href="contact.html">Contact</a>
+            </li>
+
+            <ul class="flex items-center space-x-3 pt-7 justify-center">
+                <li class="cursor-pointer"><img src="../src/assets/image/home-one-Icon/search.svg" alt=""></li>
+            <li class="cursor-pointer"><img src="../src/assets/image/home-one-Icon/user.svg" alt=""></li>
+            <li class="cursor-pointer relative ">
+                <img src="../src/assets/image/home-one-Icon/shop.svg" alt="">
+                <span class="w-3.5 h-4 bg-blue-400 rounded-full absolute top-0 -right-2.5 flex items-center justify-center text-white text-xs">
+                    <p>0</p>
+                </span>
+             </li>
+            </ul>
+        </ul>
+    </div>
+</div>
+<!-- Navbar End -->
+
+    <!-- Banner Section Start -->
+    <div class="bg-faq z-0">
+        <div class="">
+            <div class="container mx-auto px-4 max-w-[1140px]">
+                <div class="row ">
+                   <div class="w-full px-4 text-center md:py-32 sm:py-24 py-16 font-sans">
+                       <p class="text-white text-[18px]"><a href="home-one.html">Home </a> / FAQ</p>
+                   </div> 
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Banner Section End -->
+
+    <!-- Main Section Start -->
+    <div class="md:py-[100px] py-[60px]">
+        <div class="container mx-auto px-4 max-w-[1140px]">
+            <div class="row">
+                <div class="w-full px-4 space-y-[17px] pb-10">
+                    <h1 class="md:text-[40px] text-lg font-bold font-sans">Frequently Asked Questions</h1>
+                    <p class="font-sans lg:w-8/12 w-full">Below FAQ are some common concerns of our clients before purchasing the theme, if you have other questions,
+                        please just write on right section and send to us.
+                        </p>
+                </div>
+                <div class="lg:w-7/12 w-full px-4 space-y-4 accrodion">
+                    <div class="contentBx relative">
+                        <div class="relative cursor-pointer items-start text-white bg-black px-4 py-4 label ">
+                            <p class="text-[16px] font-semibold font-sans">What is Shopify?</p>
+                        </div>
+                        <div class="content">
+                            <p class="text-[14px] font-sans px-4 py-4">Shopify is the world’s most powerful e-commerce platform that allows anyone to easily sell online, at a retail location, and everywhere in between.</p>
+                        </div>
+                    </div>
+                    <div class="contentBx relative">
+                        <div class="relative cursor-pointer items-start text-white bg-black px-4 py-4 label ">
+                            <p class="text-[16px] font-semibold font-sans">How do I setup my store?</p>
+                        </div>
+                        <div class="content">
+                            <p class="text-[14px] font-sans px-4 py-4">Shopify is the world’s most powerful e-commerce platform that allows anyone to easily sell online, at a retail location, and everywhere in between.</p>
+                        </div>
+                    </div>
+                    <div class="contentBx relative">
+                        <div class="relative cursor-pointer items-start text-white bg-black px-4 py-4 label ">
+                            <p class="text-[16px] font-semibold font-sans">Do I need a Designer/Programmer for my store? </p>
+                        </div>
+                        <div class="content">
+                            <p class="text-[14px] font-sans px-4 py-4">Shopify is the world’s most powerful e-commerce platform that allows anyone to easily sell online, at a retail location, and everywhere in between.</p>
+                        </div>
+                    </div>
+                    <div class="contentBx relative">
+                        <div class="relative cursor-pointer items-start text-white bg-black px-4 py-4 label ">
+                            <p class="text-[16px] font-semibold font-sans">When you purchase a theme is that a one-time fee?</p>
+                        </div>
+                        <div class="content">
+                            <p class="text-[14px] font-sans px-4 py-4">Shopify is the world’s most powerful e-commerce platform that allows anyone to easily sell online, at a retail location, and everywhere in between.</p>
+                        </div>
+                    </div>
+                    <div class="contentBx relative">
+                        <div class="relative cursor-pointer items-start text-white bg-black px-4 py-4 label ">
+                            <p class="text-[16px] font-semibold font-sans">Can I use the theme for multiple shops? </p>
+                        </div>
+                        <div class="content">
+                            <p class="text-[14px] font-sans px-4 py-4">Shopify is the world’s most powerful e-commerce platform that allows anyone to easily sell online, at a retail location, and everywhere in between.</p>
+                        </div>
+                    </div>
+                    <div class="contentBx relative">
+                        <div class="relative cursor-pointer items-start text-white bg-black px-4 py-4 label ">
+                            <p class="text-[16px] font-semibold font-sans">Does this theme work with all Shopify plans? </p>
+                        </div>
+                        <div class="content">
+                            <p class="text-[14px] font-sans px-4 py-4">Shopify is the world’s most powerful e-commerce platform that allows anyone to easily sell online, at a retail location, and everywhere in between.</p>
+                        </div>
+                    </div>
+                    <div class="contentBx relative">
+                        <div class="relative cursor-pointer items-start text-white bg-black px-4 py-4 label ">
+                            <p class="text-[16px] font-semibold font-sans">Is it necessary to pay for the service to setup the store?</p>
+                        </div>
+                        <div class="content">
+                            <p class="text-[14px] font-sans px-4 py-4">Shopify is the world’s most powerful e-commerce platform that allows anyone to easily sell online, at a retail location, and everywhere in between.</p>
+                        </div>
+                    </div>
+                    <div class="contentBx relative">
+                        <div class="relative cursor-pointer items-start text-white bg-black px-4 py-4 label ">
+                            <p class="text-[16px] font-semibold font-sans">What is the scope of your support? </p>
+                        </div>
+                        <div class="content">
+                            <p class="text-[14px] font-sans px-4 py-4">Shopify is the world’s most powerful e-commerce platform that allows anyone to easily sell online, at a retail location, and everywhere in between.</p>
+                        </div>
+                    </div>
+                    <div class="contentBx relative">
+                        <div class="relative cursor-pointer items-start text-white bg-black px-4 py-4 label ">
+                            <p class="text-[16px] font-semibold font-sans">What if I need help with Shopify issues? </p>
+                        </div>
+                        <div class="content">
+                            <p class="text-[14px] font-sans px-4 py-4">Shopify is the world’s most powerful e-commerce platform that allows anyone to easily sell online, at a retail location, and everywhere in between.</p>
+                        </div>
+                    </div>
+                    <div class="contentBx relative">
+                        <div class="relative cursor-pointer items-start text-white bg-black px-4 py-4 label ">
+                            <p class="text-[16px] font-semibold font-sans">How fast do you respond to support inquiries? </p>
+                        </div>
+                        <div class="content">
+                            <p class="text-[14px] font-sans px-4 py-4">Shopify is the world’s most powerful e-commerce platform that allows anyone to easily sell online, at a retail location, and everywhere in between.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="lg:w-5/12 w-full px-4 ">
+                    <div class="">
+                        <p class="text-[25px] font-bold font-sans py-4">Ask Your Questions</p>
+                        <form action="">
+                            <div class="py-4">
+                                <label for="Name"></label>
+                                <input class="w-full outline-none border-b border-gray-300 text-[16px] font-sans" type="text" placeholder="Name">
+                            </div>
+                            <div class="py-4">
+                                <label for="Email"></label>
+                                <input class="w-full outline-none border-b border-gray-300 text-[16px] font-sans" type="email" placeholder="Email">
+                            </div>
+                            <div class="py-4">
+                                <label for="Questions"></label>
+                                <textarea class="w-full outline-none border-b border-gray-300 text-[16px] font-sans" name="" id="" cols="30" rows="10" placeholder="Question"></textarea>
+                            </div>
+                            <button class="uppercase text-[16px] font-sans text-white bg-blue-300 px-4 py-3">Send Question</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Main Section End -->
+
+    <!-- Footer Section Start -->
+    <div class="bg-[#F5F5F5] md:py-24 py-16">
+        <div class="container mx-auto px-4 max-w-[1140px]">
+            <div class="row">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <div>
+                        <h3 class=" text-xl font-semibold">About Us</h3>
+                        <ul class="pt-5 space-y-1 text-gray-500">
+                            <li><a href="javascript:;">123 South Main Street, Los Angeles</a></li>
+                            <li><a href="javascript:;">United States</a></li>
+                            <li><a href="javascript:;"><span class=" text-gray-600 font-medium">Phone:</span> +0180 808 880</a></li>
+                            <li><a href="javascript:;"><span class=" text-gray-600 font-medium">Email:</span> rubiktheme@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <div>
+                        <h3 class=" text-xl font-semibold">Information</h3>
+                        <ul class="pt-5 space-y-1 text-gray-500">
+                            <li><a href="javascript:;">Search</a></li>
+                            <li><a href="javascript:;">Terms & Conditions</a></li>
+                            <li><a href="javascript:;">Privacy Policy</a></li>
+                            <li><a href="javascript:;">Support</a></li>
+                            <li><a href="javascript:;">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4 pt-7 lg:pt-0">
+                    <div>
+                        <h3 class=" text-xl font-semibold">About Us</h3>
+                        <ul class="pt-5 space-y-1 text-gray-500">
+                            <li><a href="javascript:;">Our Company</a></li>
+                            <li><a href="javascript:;">Our History</a></li>
+                            <li><a href="javascript:;">Contact Us</a></li>
+                            <li><a href="javascript:;">Blogs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4 pt-7 lg:pt-0">
+                    <div>
+                        <h3 class=" text-xl font-semibold">Follow Us</h3>
+                        <ul class="flex space-x-4 pt-8">
+                            <li>
+                                <a class="rounded-md duration-300 hover:bg-gray-400 hover:text-white drop-shadow-xl text-black w-9 h-9 flex items-center justify-center bg-gray-100" href="javasript:;">
+                                <i class="fab  fa-facebook-f"></i>
+                            </a>
+                        </li>
+                            <li>
+                                <a class="rounded-md duration-300 drop-shadow-xl hover:bg-gray-400 hover:text-white text-black w-9 h-9 flex items-center justify-center bg-gray-100" href="javasript:;">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                            <li>
+                                <a class="rounded-md duration-300 drop-shadow-xl hover:bg-gray-400 hover:text-white text-black w-9 h-9 flex items-center justify-center bg-gray-100" href="javasript:;">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                            <li>
+                                <a class="rounded-md drop-shadow-xl hover:bg-gray-400 hover:text-white text-black w-9 h-9 flex items-center justify-center bg-gray-100" href="javasript:;">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Section End -->
+    <!-- Copyright Section Start -->
+    <div class="py-5">
+        <div class="container mx-auto px-4 max-w-[1140px]">
+            <div class="row">
+                <div class="md:w-1/2 w-full px-4 text-center md:text-left">
+                    <div>
+                        <p>© 2022, landingpage-demo. Powered by Shopify</p>
+                    </div>
+                </div>
+                <div class="md:w-1/2 w-full px-4 flex justify-center pt-3 md:pt-0">
+                    <div>
+                        <img src="../src/assets/image/home-one-images/payment.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button class="bg-red-300 px-4 py-2 rounded-full fixed right-6 bottom-10 scrollBtn hidden" type=""><i class="fa fa-angle-up"></i></button>
+    </div>
+    <!-- Copyright Section End -->
+    <script src="../src/assets/js/main.js"></script>
+    <script>
+        const accrodion = document.getElementsByClassName('contentBx');
+
+        for (i = 0; i<accrodion.length; i++){
+            accrodion[i].addEventListener('click', function(){this.classList.toggle('active')})
+        }
+    </script>
+</body>
+</html>
